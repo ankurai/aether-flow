@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.gmail.ankurai</groupId>
+    <artifactId>aether-flow</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>orchestrator-core</artifactId>
+
+  <name>orchestrator-core</name>
+
+  <dependencies>
+
+    <!-- API contracts -->
+    <dependency>
+      <groupId>com.gmail.ankurai</groupId>
+      <artifactId>orchestrator-api</artifactId>
+    </dependency>
+
+    <!-- Spring base -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+
+  </dependencies>
+
+</project>
