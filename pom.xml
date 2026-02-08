@@ -20,6 +20,8 @@
     <module>orchestrator-core</module>
     <module>orchestrator-app</module>
     <module>adapters/adapter-lmstudio</module>
+    <module>adapters/adapter-ollama</module>
+    <module>adapters/adapter-openai</module>
   </modules>
 
   <!-- ================= Properties ================= -->
