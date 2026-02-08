@@ -17,6 +17,11 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>com.gmail.ankurai</groupId>
+      <artifactId>orchestrator-api</artifactId>
+    </dependency>
+
     <!-- Core interfaces -->
     <dependency>
       <groupId>com.gmail.ankurai</groupId>
