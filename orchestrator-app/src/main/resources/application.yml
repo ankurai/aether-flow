@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+orchestrator:
+  basePath: "/internal/ai/v1"
+
+providers:
+  lmstudio:
+    baseUrl: "http://127.0.0.1:1234"
+    model: "local-model"
+    timeoutMs: 20000
+
+springdoc:
+  swagger-ui:
+    path: /docs
+  api-docs:
+    path: /openapi
